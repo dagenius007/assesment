@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+.sidenav:hover p {
+  display: inline-block;
+  transition: 3s;
+}
+
+.firstnav {
+  border-right: 3px solid #ff385c;
+}
+
+.menu-stays::after {
+  content: " ";
+  width: 42px;
+  position: absolute;
+  height: 3px;
+  background-color: #ff385c;
+  bottom: -26px;
+  left: 0;
+}
+
+.heart:hover , .close:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.heart:hover svg  {
+  color: white;
+}
+
+.close:hover svg {
+  z-index: 999999;
+  color: white!important;
+}
+
+.card:hover {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 24px 0px;
+}
+
+
+.button-details{
+  background: linear-gradient(95.006deg, rgb(211, 59, 80) 0%, rgb(198, 47, 101) 100%)
+}
